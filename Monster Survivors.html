@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayPeak: Monster Survivors - Epic Adventure Game | PlayPeakAI</title>
+    <meta name="description" content="Play Monster Survivors, an action-packed adventure game where you battle waves of monsters to survive. Experience the thrill on PlayPeakAI.">
+    <link rel="canonical" href="https://playpeakai.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            gray: '#8E8E93',
+                            green: '#34C759',
+                            red: '#FF3B30',
+                            darkbg: '#1C1C1E',
+                            lightbg: '#F2F2F7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwind">
+        @layer components {
+            .btn {
+                @apply px-6 py-3 rounded-full font-bold transition duration-300;
+            }
+            .btn-primary {
+                @apply bg-apple-blue text-white hover:bg-opacity-90;
+            }
+            .container-custom {
+                @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-lightbg dark:bg-apple-darkbg text-gray-900 dark:text-white">
+    <header class="py-4 bg-white dark:bg-gray-900 shadow-md">
+        <div class="container-custom flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-apple-blue">
+                PlayPeakAI
+            </a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-apple-blue transition">About</a>
+                <a href="#gameplay" class="hover:text-apple-blue transition">Gameplay</a>
+                <a href="#features" class="hover:text-apple-blue transition">Features</a>
+            </nav>
+            <button class="md:hidden focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-12 md:py-20 bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-black">
+            <div class="container-custom text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 text-apple-blue">Monster Survivors</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Survive endless waves of monsters in this action-packed adventure game!</p>
+                <div class="rounded-xl overflow-hidden shadow-2xl max-w-5xl mx-auto">
+                    <iframe 
+                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                        class="w-full aspect-video" 
+                        frameborder="0" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-white dark:bg-gray-900">
+            <div class="container-custom">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">About Monster Survivors</h2>
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <p class="text-lg mb-6">Monster Survivors is an intense action game where you'll face waves of increasingly difficult monsters. Test your skills, upgrade your character, and see how long you can survive in this challenging adventure.</p>
+                        <p class="text-lg mb-6">With intuitive controls and addictive gameplay, Monster Survivors offers endless hours of entertainment for players of all skill levels.</p>
+                        <a href="#gameplay" class="btn btn-primary inline-block">Learn More</a>
+                    </div>
+                    <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-8">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Fast-paced action gameplay</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Challenging waves of monsters</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>Character upgrades and progression</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-green mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                                <span>No download required - play instantly</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameplay" class="py-16 bg-gray-100 dark:bg-gray-800">
+            <div class="container-custom">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Gameplay Experience</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6">
+                        <div class="mb-4 text-apple-blue">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Intuitive Controls</h3>
+                        <p class="text-center">Simple controls make it easy to jump in and play, but mastering the game takes skill and strategy.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6">
+                        <div class="mb-4 text-apple-blue">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Power Upgrades</h3>
+                        <p class="text-center">Collect power-ups and upgrades to enhance your character and tackle tougher challenges.</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6">
+                        <div class="mb-4 text-apple-blue">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-center">Increasing Difficulty</h3>
+                        <p class="text-center">As you progress, waves become harder and monsters get stronger. How long can you survive?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-16 bg-white dark:bg-gray-900">
+            <div class="container-custom">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Game Features</h2>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Why You'll Love Monster Survivors</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-blue mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span><strong class="text-apple-blue">Quick Sessions:</strong> Perfect for short gaming breaks or extended play sessions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-blue mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
+                                </svg>
+                                <span><strong class="text-apple-blue">Endless Variety:</strong> Different monsters and challenges keep gameplay fresh</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-blue mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                <span><strong class="text-apple-blue">Cross-Platform:</strong> Enjoy on desktop or mobile with responsive design</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-apple-blue mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                                <span><strong class="text-apple-blue">Skill-Based:</strong> Easy to learn, difficult to master gameplay mechanics</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-200 dark:bg-gray-800 rounded-xl p-8">
+                        <h3 class="text-2xl font-bold mb-4">How to Play</h3>
+                        <ol class="space-y-4 list-decimal list-inside">
+                            <li class="pl-2">Use the arrow keys or WASD to move your character around the field</li>
+                            <li class="pl-2">Collect power-ups to enhance your abilities and weapons</li>
+                            <li class="pl-2">Avoid enemies and their attacks to stay alive</li>
+                            <li class="pl-2">Defeat monsters to earn points and advance to higher levels</li>
+                            <li class="pl-2">Survive as long as possible to achieve the highest score</li>
+                        </ol>
+                        <div class="mt-6">
+                            <a href="#" class="btn btn-primary inline-block">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 bg-gray-900 text-white">
+        <div class="container-custom">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="/" class="text-2xl font-bold text-apple-blue">PlayPeakAI</a>
+                    <p class="mt-2 text-sm text-gray-400">Experience the best online games instantly</p>
+                </div>
+                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="#" class="hover:text-apple-blue transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-apple-blue transition">Terms of Service</a>
+                    <a href="#" class="hover:text-apple-blue transition">Contact Us</a>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-800 text-center text-sm text-gray-400">
+                <p>&copy; 2024 PlayPeakAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
